@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to={'/'} className="left items">MealDB</Link>
         <div className="right">
           {isLoggedIn && (<>
-            <Link className='items' to={'/dashboard'}>Dashboard</Link>
+            {/* <Link className='items' to={'/dashboard'}>Dashboard</Link> */}
             <Link className='items' to={'/meal'}>Meal</Link>
             <Link className='items' to={'/profile'}>Profile</Link>
             {/* <Link className='items' to={'/courses'}>Courses</Link> */}
