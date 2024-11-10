@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import './navbar.css'
+import './Navbar.css'
 
 const Navbar = () => {
     const [isLoggedIn, setisLoggedIn] = useState(false)
