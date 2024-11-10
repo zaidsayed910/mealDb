@@ -1,0 +1,69 @@
+input {
+    width: 20rem;
+    background: rgb(54, 42, 42);
+    color: white;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.modal {color: black;}
+
+.img-bx{
+    width: 220px;
+    border-radius: 10px;
+    border: 2px solid pink;
+
+}
+
+.meal-main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;          
+}
+
+.mrx-1 {
+    margin-top: 1rem;
+}
+
+.mrt-1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.meal-ft{font-size: 16px;}
+
+
+@media screen and (min-device-width:0px) and (max-device-width:600px) {
+    .img-bx{
+        width: 150px;
+        border-radius: 10px;
+        border: 2px solid pink;
+
+    }
+
+    .meal-ft {
+        font-size: 13px;
+    }
+
+    .meal-main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;          
+    }
+
+    .mrx-1 {
+        margin-top: 0.5rem;
+    }
+    
+    .mrt-1{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
